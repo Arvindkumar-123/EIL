@@ -17,7 +17,7 @@ import crypto from "crypto";
 
 
 const PORT = process.env.PORT || 5000;
-const uri = process.env.MONGO_URL;
+ const MONGO_URL = process.env.Mongo_URL;
 
 
 // app.get('/RBE', async(req, res)=>{
@@ -309,8 +309,17 @@ app.get('/RBE', async (req, res) => {
 
 
 
-app.listen(PORT, ()=>{
-    console.log(`Server is running on port ${PORT}`);
-    mongoose.connect(uri);
-    console.log('MongoDB connected');
+app.listen(PORT, async () => {
+  console.log(`Server is running on port ${PORT}`);
+
+  try {
+    await mongoose.connect(MONGO_URL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log('✅ MongoDB connected');
+  } catch (err) {
+    console.error('❌ MongoDB connection failed:', err.message);
+    process.exit(1); // Exit the app if DB connection fails
+  }
 });
