@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 export const AuthContext = createContext({});
 
 const client = axios.create({
-  baseURL: 'http://localhost:5000'
+  baseURL: 'https://eilback.onrender.com'
 });
 
 export const AuthProvider = ({ children }) => {

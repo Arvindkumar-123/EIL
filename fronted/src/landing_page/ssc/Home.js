@@ -14,7 +14,7 @@ const Home = () => {
   const [showSolutions, setShowSolutions] = useState(false);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/RBE')
+    axios.get('https://eilback.onrender.com/RBE')
       .then(res => setQuestions(res.data))
       .catch(err => console.error('Error fetching questions:', err));
   }, []);
