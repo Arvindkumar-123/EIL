@@ -1,18 +1,18 @@
 import React from "react";
-import {useNavigate} from "react-router-dom";
+// import {useNavigate} from "react-router-dom";
 
 function About() {
-     const router = useNavigate();
+    //  const router = useNavigate();
 
 
-   const isAuthenticated = () => {
+//    const isAuthenticated = () => {
        
-         if(localStorage.getItem("token")){
-           return router("/ssc")
-        } else {
-            return router("/login")
-         }
-     }
+//          if(localStorage.getItem("token")){
+//            return router("/ssc")
+//         } else {
+//             return router("/login")
+//          }
+//      }
     return(
 
    
@@ -24,7 +24,7 @@ function About() {
                     <img src="media/images/sss.2.webp"  style={{height:"115px",width:"50%",borderRadius:"5px"}} ></img>
                     <div className="text-center">
                         <h2 className="text-center">SSC</h2>
-                        <p className="text-center">Mock Test FREE <br/><button className="btn  btn-outline-primary" onClick={isAuthenticated}>Click</button></p>
+                        <p className="text-center">Mock Test FREE <br/><button className="btn  btn-outline-primary" >Click</button></p>
                         
                     </div>
                     </div>
