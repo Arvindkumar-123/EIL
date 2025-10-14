@@ -16,7 +16,7 @@ const getUserName = () => {
             <div className="col-lg-3 col-md-6 col-sm-5 ">
                
 
-                <h1 >WELCOME TO Hi  jrherhe <span style={{color:"#4169E1"}}>E</span ><span style={{color:'#DC143C'}}>I</span><span style={{color:"#50C878"}}>L</span> PLATFORM <span style={{color: ' #007bff'}}>{getUserName()}</span> </h1>
+                <h1 >WELCOME TO <span style={{color:"#4169E1"}}>E</span ><span style={{color:'#DC143C'}}>I</span><span style={{color:"#50C878"}}>L</span> PLATFORM <span style={{color: ' #007bff'}}>{getUserName()}</span> </h1>
                 <p className="mt-5">Crack your goal our platform</p>
             </div>
             <div className="col-lg-7 col-md-6 col-sm-4">
