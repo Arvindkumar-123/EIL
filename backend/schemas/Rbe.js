@@ -1,13 +1,26 @@
-const {Schema} = require('mongoose');
+// const {Schema} = require('mongoose');
+import mongoose from 'mongoose';
 
-
-const RbegsSchema = new Schema({
+const RbegsSchema = new mongoose. Schema({
   
   question: String,
   options: [String],
   answer: [Number],
-  explanation: String
+  explanation: { type: String, default: "" }
 });
 
-module.exports = { RbegsSchema };
+const PoliceSchema = new mongoose. Schema({
+  
+  question: String,
+  options: [String],
+  answer: [Number],
+  explanation: { type: String, default: "" }
+});
+
+export { RbegsSchema ,PoliceSchema };
+
+
+
+
+
 

@@ -1,5 +1,12 @@
-const {model} = require('mongoose');
-const {RbegsSchema} = require('../schemas/Rbe');
-const RbegsModel = new model('Rbegs', RbegsSchema);
-module.exports = {RbegsModel};
+
+
+import mongoose from 'mongoose';
+import { RbegsSchema ,PoliceSchema} from '../schemas/Rbe.js';
+
+export const RbegsModel = mongoose.model('Rbegs', RbegsSchema);
+export const PoliceModel = mongoose.model('Polices', PoliceSchema);
+
+
+
+
 

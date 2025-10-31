@@ -62,9 +62,11 @@ const Home = () => {
       alert('समय समाप्त! उत्तर जमा किए जा रहे हैं...');
     }
   };
+  
+
 
   return (
-    <div style={{ padding: '20px', background: 'white', color: 'black' }}>
+    <div style={{ padding: '20px', background: 'white', color: 'black',whiteSpace: 'pre-line' }}>
       {/* {!submitted && <QuizTimer duration={30} onTimeUp={handleAutoSubmit} />} */}
       {!submitted && questions.length > 0 && (
         <QuizTimer  duration={300} onTimeUp={handleAutoSubmit} />
@@ -75,13 +77,14 @@ const Home = () => {
       {questions.length === 0 ? (
         <p>Loading...</p>
       ) : (
-        questions.map((q, index) => {
+        questions.slice(0,150).map((q, index) => {
           const userAnswer = selectedOptions[index];
           const correctAnswers = Array.isArray(q.answer) ? q.answer.map(Number) : [];
 
           return (
-            <div key={index} style={{ marginBottom: '30px' }}>
-              <p><strong>{index + 1}:</strong> {q.question}</p>
+            <div key={index} style={{ marginBottom: '30px',whiteSpace: 'pre-line'  }}>
+              <p style={{whiteSpace: 'pre-line' }}><strong>{index + 1}:</strong> {q.question}
+</p>
               <ul style={{ listStyle: 'none', padding: 0 }}>
                 {q.options.map((opt, optIdx) => {
                   const isSelected = userAnswer === optIdx;
