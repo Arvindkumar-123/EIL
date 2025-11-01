@@ -6,6 +6,7 @@ import Home from './landing_page/Home/Home';
 import Quiz from './landing_page/ssc/ssc_quiz';
 // import Authentication from './landing_page/pages/authentication';
 import {PoliceQuiz,PoliceQuiz1,PoliceQuiz2,PoliceQuiz3,PoliceQuiz4,PoliceQuiz5} from './landing_page/Quiz/police.Quiz';
+import { SscQuiz1,SscQuiz2,SscQuiz3,SscQuiz4,SscQuiz5,SscQuiz6,SscQuiz7,SscQuiz8,SscQuiz9,SscQuiz10,SscQuiz11,SscQuiz12,SscQuiz13,SscQuiz14,SscQuiz15 } from './landing_page/ssc/ssc_quiz1';
 
 import Footer from './footer';
 import Uphome from './landing_page/police/uphome';
@@ -31,6 +32,22 @@ root.render(
             <Route path='/police/quiz3' element={<PoliceQuiz3/>} />
             <Route path='/police/quiz4' element={<PoliceQuiz4/>} />
             <Route path='/police/quiz5' element={<PoliceQuiz5/>} />
+            <Route path='/Rail/Quiz1' element={<SscQuiz1/>} />
+            <Route path='/Rail/Quiz2' element={<SscQuiz2/>} />
+            <Route path='/Rail/Quiz3' element={<SscQuiz3/>} />
+            <Route path='/Rail/Quiz4' element={<SscQuiz4/>} />
+            <Route path='/Rail/Quiz5' element={<SscQuiz5/>} />
+            <Route path='/Rail/Quiz6' element={<SscQuiz6/>} />
+            <Route path='/Rail/Quiz7' element={<SscQuiz7/>} />
+            <Route path='/Rail/Quiz8' element={<SscQuiz8/>} />
+            <Route path='/Rail/Quiz9' element={<SscQuiz9/>} />
+            <Route path='/Rail/Quiz10' element={<SscQuiz10/>} />
+            <Route path='/Rail/Quiz11' element={<SscQuiz11/>} />
+            <Route path='/Rail/Quiz12' element={<SscQuiz12/>} />
+            <Route path='/Rail/Quiz13' element={<SscQuiz13/>} />
+            <Route path='/Rail/Quiz14' element={<SscQuiz14/>} />
+            <Route path='/Rail/Quiz15' element={<SscQuiz15/>} />
+            
           </Routes>
           {/* </AuthProvider> */}
          <Footer />

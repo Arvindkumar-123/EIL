@@ -1,6 +1,6 @@
 
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import QuizTimer from '../contexts/Timer.Quiz';
 import useQuizLogic from "./quiz"
@@ -11,7 +11,7 @@ import QuizFooter from './quiz_footer';
 export const  PoliceQuiz = () =>  {
     const {questions,selectedOptions,submitted,showSolutions,
         handleOptionClick,calculateScore,correctCount,incorrectCount,handleRestart,handleAutoSubmit,setSubmitted,setShowSolutions
-  } = useQuizLogic('http://localhost:5000/UP_police');
+  } = useQuizLogic('https://eilback.onrender.com/UP_police');
 
   return (
     <div className="quiz-container">
@@ -62,7 +62,7 @@ export const  PoliceQuiz = () =>  {
 export const  PoliceQuiz1 = () =>  {
     const {questions,selectedOptions,submitted,showSolutions,
         handleOptionClick,calculateScore,correctCount,incorrectCount,handleRestart,handleAutoSubmit,setSubmitted,setShowSolutions
-  } = useQuizLogic('http://localhost:5000/UP_police');
+  } = useQuizLogic('https://eilback.onrender.com/UP_police');
 
 
 
@@ -115,7 +115,7 @@ export const  PoliceQuiz1 = () =>  {
 export const  PoliceQuiz2 = () =>  {
     const {questions,selectedOptions,submitted,showSolutions,
         handleOptionClick,calculateScore,correctCount,incorrectCount,handleRestart,handleAutoSubmit,setSubmitted,setShowSolutions
-  } = useQuizLogic('http://localhost:5000/UP_police');
+  } = useQuizLogic('https://eilback.onrender.com/UP_police');
 
 
 
@@ -168,7 +168,7 @@ export const  PoliceQuiz2 = () =>  {
 export const  PoliceQuiz3 = () =>  {
     const {questions,selectedOptions,submitted,showSolutions,
         handleOptionClick,calculateScore,correctCount,incorrectCount,handleRestart,handleAutoSubmit,setSubmitted,setShowSolutions
-  } = useQuizLogic('http://localhost:5000/UP_police');
+  } = useQuizLogic('https://eilback.onrender.com/UP_police');
 
 
 
@@ -221,7 +221,7 @@ export const  PoliceQuiz3 = () =>  {
 export const  PoliceQuiz4 = () =>  {
     const {questions,selectedOptions,submitted,showSolutions,
         handleOptionClick,calculateScore,correctCount,incorrectCount,handleRestart,handleAutoSubmit,setSubmitted,setShowSolutions
-  } = useQuizLogic('http://localhost:5000/UP_police');
+  } = useQuizLogic('https://eilback.onrender.com/UP_police');
 
 
 
@@ -274,7 +274,7 @@ export const  PoliceQuiz4 = () =>  {
 export const  PoliceQuiz5 = () =>  {
     const {questions,selectedOptions,submitted,showSolutions,
         handleOptionClick,calculateScore,correctCount,incorrectCount,handleRestart,handleAutoSubmit,setSubmitted,setShowSolutions
-  } = useQuizLogic('http://localhost:5000/UP_police');
+  } = useQuizLogic('https://eilback.onrender.com/UP_police');
 
 
 
