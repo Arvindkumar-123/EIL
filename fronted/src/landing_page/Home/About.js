@@ -21,9 +21,11 @@ function About() {
             <div className="row text-center quiz">
                 <div className="col-lg-3-p-3-me-3 col-md-6 col-sm-12 border   mt-2 " style={{background:"white",height:"115px"}} >
                     <div style={{display:"flex"}}>
-                    <img src="media/images/sss.2.webp"  style={{height:"115px",width:"50%",borderRadius:"5px"}} ></img>
+                        <img src="media/images/rail.webp" style={{borderRadius:"5px",height:"115px",width:"50%"}}></img>
+                    
                     <div className="text-center">
-                        <h2 className="text-center">SSC</h2>
+                        
+                        <h1 className="text-center">RAILWAY</h1>
                         <p className="text-center">Mock Test FREE <br/><button className="btn  btn-outline-primary" onClick={() => router('/ssc')} >Click</button></p>
                         
                     </div>
@@ -46,9 +48,9 @@ function About() {
                 
                 <div className="col-lg-3-p-5 col-md-6 col-sm-12 border  mt-2 " style={{background:"white",height:"115px"}}>
                     <div style={{display:"flex"}}>
-                     <img src="media/images/rail.webp" style={{borderRadius:"5px",height:"115px",width:"50%"}}></img>
+                     <img src="media/images/sss.2.webp"  style={{height:"115px",width:"50%",borderRadius:"5px"}} ></img>
                      <div className="text-center">
-                    <h1>RAILWAY</h1>
+                    <h2 className="text-center">SSC</h2>
                     <p>Mock Test FREE <br/><button className="btn  btn-outline-primary">Click</button></p>
                     </div>
                     </div>
