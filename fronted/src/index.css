@@ -42,32 +42,24 @@ body {
   }
 }
 
-@media (min-width: 200px) and (max-width: 400px) {
-  .quizabout div div img {
-    width: 200px;
 
-  }
-  
-@media (min-width: 200px) and (max-width: 400px) {
-  .quizabout div div  {
-    width: 200px;
 
-  }
-}
 
-}
-@media (min-width: 768px) and (max-width: 1250px) {
-  .quizabout {
+@media (min-width: 500px) and (max-width: 1600px) {
+ .quizcontent {
+    width: 300px;
     text-align: center;
 
   }
 }
-@media (min-width: 200px) and (max-width: px) {
-  .quizabout {
+@media (min-width: 200px) and (max-width: 500px) {
+ .quizcontent {
+    
     text-align: center;
 
   }
 }
+
 
 .quiz-container {
   padding: 20px;

@@ -19,11 +19,11 @@ function About() {
 
          <div className="container mt-5 "  >
             <div className="row  quiz quizabout">
-                <div className="col-lg-9 col-md-7 col-sm-12 border   mt-2 " style={{background:"white",height:"120px"}} >
-                    <div style={{display:"flex",justifyContent: "space-between"}}>
-                        <img src="media/images/rail.webp" style={{borderRadius:"5px",height:"120px",width:"500px"}}></img>
+                <div className="col-lg-9 col-md-9 col-sm-12 border   mt-2 " style={{background:"white",height:"120px"}} >
+                    <div style={{display:"flex"}}>
+                        <img src="media/images/rail.webp" style={{height:"120px",width:"50%",borderRadius:"5px"}}></img>
                     
-                    <div style={{height:'120px', width:'300px'}}>
+                    <div className='quizcontent'style={{height:'120px'}}>
                         
                         <h1 >RAILWAY</h1>
                         <p >Mock Test FREE <br/><button className="btn  btn-outline-primary" onClick={() => router('/ssc')} >Click</button></p>
@@ -36,31 +36,31 @@ function About() {
                     
                 </div>
                  <br/>
-                <div className="col-lg-9 col-md-7 col-sm-12 border   mt-2" style={{background:"white",height:"120px"}}>
-                    <div style={{display:"flex",justifyContent: "space-between"}}>
-                     <img src="media/images/DELHI-POLICE.jpg" style={{height:"120px",width:"500px",borderRadius:"5px"}}></img>
-                     <div style={{height:'120px', width:'300px'}}>
+                <div className="col-lg-9 col-md-9 col-sm-12 border   mt-2" style={{background:"white",height:"120px"}}>
+                    <div style={{display:"flex"}}>
+                     <img src="media/images/DELHI-POLICE.jpg"style={{height:"120px",width:"50%",borderRadius:"5px"}} ></img>
+                     <div className='quizcontent' style={{height:'120px'}}>
                         <h1>POLICE</h1>
                         <p >Mock Test FREE <br/> <button className="btn  btn-outline-primary" onClick={() => router('/police')}>Click</button></p>
                      </div>
                     </div>
                 </div>
                 
-                <div className="col-lg-9 col-md-7 col-sm-12 border  mt-2 " style={{background:"white",height:"120px"}}>
-                    <div style={{display:"flex",justifyContent: "space-between"}}>
-                     <img src="media/images/sss.2.webp"  style={{height:"120px",width:"500px",borderRadius:"5px"}} ></img>
-                     <div style={{height:'120px', width:'300px'}}>
+                <div className="col-lg-9 col-md-9 col-sm-12 border  mt-2 " style={{background:"white",height:"120px"}}>
+                    <div style={{display:"flex"}}>
+                     <img src="media/images/sss.2.webp" style={{height:"120px",width:"50%",borderRadius:"5px"}}  ></img>
+                     <div className='quizcontent' style={{height:'120px'}}>
                     <h2 >SSC</h2>
                     <p>Mock Test FREE <br/><button className="btn  btn-outline-primary">Click</button></p>
                     </div>
                     </div>
                 </div>
 
-                <div className="col-lg-9 col-md-7 col-sm-12 border  mt-2"style={{background:"white",height:"120px"}} >
-                    <div style={{display:"flex",justifyContent: "space-between"}}>
-                    <img src="media/images/pet.jpg" style={{borderRadius:"5px",height:"120px",width:"500px"}}></img>
+                <div className="col-lg-9 col-md-9 col-sm-12 border  mt-2"style={{background:"white",height:"120px"}} >
+                    <div style={{display:"flex"}}>
+                    <img src="media/images/pet.jpg" style={{height:"120px",width:"50%",borderRadius:"5px"}}></img>
                     
-                    <div style={{height:'120px', width:'300px'}}>
+                    <div className='quizcontent' style={{height:'120px'}}>
                     <h1 >PET</h1>
                     <p>Mock Test FREE <br/><button className="btn  btn-outline-primary ">Click</button></p>
                     
@@ -68,11 +68,11 @@ function About() {
                     </div>
                 </div>
 
-                <div className="col-lg-9 col-md-7 col-sm-12 border  mt-2" style={{background:"white",height:"120px"}}>
-                    <div style={{display:"flex",justifyContent: "space-between"}}>
-                    <img src="media/images/sssc.png" style={{borderRadius:"5px",height:"120px",width:"500px"}}></img>
+                <div className="col-lg-9 col-md-9 col-sm-12 border  mt-2" style={{background:"white",height:"120px"}}>
+                    <div style={{display:"flex"}}>
+                    <img src="media/images/sssc.png" style={{height:"120px",width:"50%",borderRadius:"5px"}}></img>
                     
-                   <div style={{height:'120px', width:'300px'}}>
+                   <div className='quizcontent' style={{height:'120px'}}>
                     <h1 >SSSC</h1>
                     <p >Mock Text FREE <br/><button className="btn  btn-outline-primary ">Click</button></p>
                     
@@ -92,10 +92,10 @@ function About() {
                     </div>
                 </div> */}
 
-                <div className="col-lg-9 col-md-7 col-sm-12 border  mt-2 " style={{background:"white",height:'120px'}}>
-                    <div style={{display:"flex",justifyContent: "space-between"}}>
-                    <img src="media/images/navy.1.jpg" style={{borderRadius:"5px",height:"120px",width:"500px"}}></img>
-                    <div style={{height:'120px', width:'300px'}}>
+                <div className="col-lg-9 col-md-9 col-sm-12 border  mt-2 " style={{background:"white",height:'120px'}}>
+                    <div style={{display:"flex"}}>
+                    <img src="media/images/navy.1.jpg"style={{height:"120px",width:"50%",borderRadius:"5px"}} ></img>
+                    <div className='quizcontent'style={{height:'120px'}}>
                     <h1 >NAVY</h1>
                     <p >Mock Test FREE <br/><button className="btn  btn-outline-primary ">Click</button></p>
                    
@@ -103,10 +103,10 @@ function About() {
                     </div>
                 </div>
 
-                <div className="col-lg-9 col-md-7 col-sm-12 border   mt-2" style={{background:"white",height:'120px'}}>
-                    <div style={{display:"flex",justifyContent: "space-between"}}>
-                     <img src="media/images/army.webp" style={{borderRadius:"5px",height:"120px",width:"500px"}}></img>
-                     <div style={{height:'120px', width:'300px'}}>
+                <div className="col-lg-9 col-md-9 col-sm-12 border   mt-2" style={{background:"white",height:'120px'}}>
+                    <div style={{display:"flex"}}>
+                     <img src="media/images/army.webp" style={{height:"120px",width:"50%",borderRadius:"5px"}}></img>
+                     <div className='quizcontent'style={{height:'120px'}}>
                     <h1 >ARMY</h1>
                     <p>Mock Text FREE <br/><button className="btn  btn-outline-primary ">Click</button></p>
                     
@@ -114,11 +114,11 @@ function About() {
                     </div>
                 </div>
                 
-                <div className="col-lg-9 col-md-7  col-sm-12 border mt-2 " style={{background:"white",height:"120px"}}>
-                    <div style={{display:"flex",justifyContent: "space-between"}}>
-                    <img src="media/images/airforce.jpg" style={{borderRadius:"5px",height:"120px",width:"500px"}}></img>
+                <div className="col-lg-9 col-md-9  col-sm-12 border mt-2 " style={{background:"white",height:"120px"}}>
+                    <div style={{display:"flex"}}>
+                    <img src="media/images/airforce.jpg"style={{height:"120px",width:"50%",borderRadius:"5px"}} ></img>
                     
-                        <div style={{height:'120px', width:'300px'}}>
+                        <div className='quizcontent' style={{height:'120px'}}>
                     <h2 >AIR-FORCE</h2>
                     <p >Mock Text FREE <br/><button className="btn  btn-outline-primary ">Click</button></p>
                     </div>
