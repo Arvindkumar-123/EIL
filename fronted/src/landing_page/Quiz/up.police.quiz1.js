@@ -9,6 +9,7 @@ const QuestionCard = ({
   showSolutions,
   handleOptionClick
 }) => {
+  const optionLabels = ['(A)', '(B)', '(C)', '(D)']; 
   return (
     <div className="question-block">
       <p><strong>{index + 1}:</strong> {q.question}</p>
@@ -32,7 +33,7 @@ const QuestionCard = ({
               className={optionClass}
               onClick={() => handleOptionClick(index, optIdx)}
             >
-              {opt}
+             <strong>{optionLabels[optIdx]}</strong> {opt}
               {showFeedback && isCorrect && <span> ✅</span>}
               {showFeedback && isSelected && !isCorrect && <span> ❌</span>}
             </li>

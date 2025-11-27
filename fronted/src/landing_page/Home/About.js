@@ -51,7 +51,7 @@ function About() {
                      <img src="media/images/sss.2.webp" style={{height:"120px",width:"50%",borderRadius:"5px"}}  ></img>
                      <div className='quizcontent' style={{height:'120px'}}>
                     <h2 >SSC</h2>
-                    <p>Mock Test FREE <br/><button className="btn  btn-outline-primary">Click</button></p>
+                    <p>Mock Test FREE <br/><button className="btn  btn-outline-primary" onClick={() => router('/ssctext')}>Click</button></p>
                     </div>
                     </div>
                 </div>

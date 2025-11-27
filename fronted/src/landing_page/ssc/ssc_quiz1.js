@@ -1,7 +1,7 @@
 import useQuizLogic from "../Quiz/quiz";
 import QuestionCard from "../Quiz/up.police.quiz1";
 import SscFooter from "./ssc_quiz_footer";
-import QuizTimer from "../contexts/Timer.Quiz";
+// import QuizTimer from "../contexts/Timer.Quiz";
 
 export const  SscQuiz1 = () =>  {
     const {questions,selectedOptions,submitted,showSolutions,
@@ -10,9 +10,9 @@ export const  SscQuiz1 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -61,9 +61,9 @@ export const  SscQuiz2 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -112,9 +112,9 @@ export const SscQuiz3 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -163,9 +163,9 @@ export const SscQuiz4 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -214,9 +214,9 @@ export const SscQuiz5 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -265,9 +265,9 @@ export const SscQuiz6 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -316,9 +316,9 @@ export const  SscQuiz7= () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -368,9 +368,9 @@ export const  SscQuiz8 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -419,9 +419,9 @@ export const  SscQuiz9 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -471,9 +471,9 @@ export const  SscQuiz10 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -523,9 +523,9 @@ export const  SscQuiz11 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -574,9 +574,9 @@ export const SscQuiz12 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -625,9 +625,9 @@ export const  SscQuiz13 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -676,9 +676,9 @@ export const SscQuiz14 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -727,9 +727,9 @@ export const  SscQuiz15 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={900} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>

@@ -7,7 +7,7 @@ import Quiz from './landing_page/ssc/ssc_quiz';
 // import Authentication from './landing_page/pages/authentication';
 import {PoliceQuiz,PoliceQuiz1,PoliceQuiz2,PoliceQuiz3,PoliceQuiz4,PoliceQuiz5} from './landing_page/Quiz/police.Quiz';
 import { SscQuiz1,SscQuiz2,SscQuiz3,SscQuiz4,SscQuiz5,SscQuiz6,SscQuiz7,SscQuiz8,SscQuiz9,SscQuiz10,SscQuiz11,SscQuiz12,SscQuiz13,SscQuiz14,SscQuiz15 } from './landing_page/ssc/ssc_quiz1';
-
+import Sscpage from './landing_page/sscpage/All_scc'; 
 import Footer from './footer';
 import Uphome from './landing_page/police/uphome';
 // import { AuthProvider} from './landing_page/contexts/AuthContext';
@@ -26,6 +26,8 @@ root.render(
             
             <Route path='/ssc' element={<Quiz/>} />
             <Route path='/police' element={<Uphome/>} />
+            <Route path='/ssctext' element={<Sscpage/>} />
+
             <Route path='/police/quiz' element={<PoliceQuiz/>} />
             <Route path='/police/quiz1' element={<PoliceQuiz1/>} />
             <Route path='/police/quiz2' element={<PoliceQuiz2/>} />

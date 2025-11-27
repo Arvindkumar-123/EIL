@@ -25,8 +25,8 @@ const QuizTimer = ({ duration, onTimeUp }) => {
     return `${min}:${rem < 10 ? '0' : ''}${rem}`;
   };
 
-  return (
-      <div 
+   return (
+       <div 
     // style={{
     //   height: '50px',
     //   width: '100%',
@@ -35,12 +35,12 @@ const QuizTimer = ({ duration, onTimeUp }) => {
     //   color: 'white',
     //   position: 'fixed'
     // }}
-    >
-      <a className='text-center quiz_nav '>
+     >
+       <a className='text-center quiz_nav '>
         ⏳ समय शेष: {formatTime(timeLeft)}
       </a>
     </div>
   );
 };
 
-export default QuizTimer;
+export default QuizTimer; 
