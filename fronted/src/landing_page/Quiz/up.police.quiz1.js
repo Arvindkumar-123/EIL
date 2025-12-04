@@ -12,7 +12,7 @@ const QuestionCard = ({
   const optionLabels = ['(A)', '(B)', '(C)', '(D)']; 
   return (
     <div className="question-block">
-      <p><strong>{index + 1}:</strong> {q.question}</p>
+      <p style={{color:'gold'}}><strong>Q:</strong> {q.question}</p>
       <ul className="option-list">
         {q.options.map((opt, optIdx) => {
           const isSelected = userAnswer === optIdx;

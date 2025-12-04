@@ -14,7 +14,7 @@ const SscFooter = ({
   return (
     <>
       {!submitted ? (
-        <button className="btn btn-success" onClick={() => setSubmitted(true)}>
+        <button className="btn btn-success" onClick={() => setSubmitted(true)} style={{marginTop:'500px'}}>
           Submit
         </button>
       ) : (

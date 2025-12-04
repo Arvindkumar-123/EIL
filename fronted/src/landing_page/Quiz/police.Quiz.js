@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import QuizTimer from '../contexts/Timer.Quiz';
+// import QuizTimer from '../contexts/Timer.Quiz';
 import useQuizLogic from "./quiz"
 import QuestionCard from './up.police.quiz1';
 import QuizFooter from './quiz_footer';
@@ -15,9 +15,9 @@ export const  PoliceQuiz = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={2400} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -68,9 +68,9 @@ export const  PoliceQuiz1 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={2400} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -121,9 +121,9 @@ export const  PoliceQuiz2 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={2400} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -174,9 +174,9 @@ export const  PoliceQuiz3 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={2400} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -227,9 +227,9 @@ export const  PoliceQuiz4 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={2400} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>
@@ -280,9 +280,9 @@ export const  PoliceQuiz5 = () =>  {
 
   return (
     <div className="quiz-container">
-      {!submitted && questions.length > 0 && (
+      {/* {!submitted && questions.length > 0 && (
         <QuizTimer duration={2400} onTimeUp={handleAutoSubmit} />
-      )}
+      )} */}
 
       {questions.length === 0 ? (
         <p>Loading...</p>

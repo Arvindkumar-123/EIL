@@ -13,6 +13,7 @@ body {
    background: rgb(199, 196, 196);
 
   color:black;
+  background-color: #4CAF50;
 }
 
 .navicon{
@@ -63,13 +64,19 @@ body {
 
 .quiz-container {
   padding: 20px;
-  background: white;
-  color: black;
+  background:green;
+  color:white;
   white-space: pre-line;
+  
+}
+
+.quiz-container h1{
+  color: #F44336;
 }
 
 .question-block {
   margin-bottom: 30px;
+  margin-top: 150px;
   white-space: pre-line;
 }
 
@@ -78,18 +85,18 @@ body {
   padding: 0;
 }
 
-.option-item {
+/* .option-item {
   color: black;
   padding: 10px;
   margin: 5px 0;
   border-radius: 5px;
   cursor: pointer;
   background-color: #f0f0f0;
-}
+} */
 
-.option-item.selected {
+/* .option-item.selected {
   background-color: #90CAF9;
-}
+} */
 
 .option-item.correct {
   background-color: #4CAF50;

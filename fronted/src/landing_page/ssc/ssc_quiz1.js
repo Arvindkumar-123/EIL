@@ -17,7 +17,7 @@ export const  SscQuiz1 = () =>  {
       {questions.length === 0 ? (
         <p>Loading...</p>
       ) : (
-        questions.slice(0, 30).map((q, index) => {
+        questions.slice(0, ).map((q, index) => {
           const userAnswer = selectedOptions[index];
           const correctAnswers = Array.isArray(q.answer) ? q.answer.map(Number) : [];
 

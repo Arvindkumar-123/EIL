@@ -14,7 +14,7 @@ const QuizFooter = ({
   return (
     <>
       {!submitted ? (
-        <button className="btn btn-success" onClick={() => setSubmitted(true)}>
+        <button className="btn btn-success" style={{marginTop:'200px'}} onClick={() => setSubmitted(true)}>
           Submit
         </button>
       ) : (
