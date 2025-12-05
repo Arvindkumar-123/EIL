@@ -7,6 +7,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import { RbegsModel} from './model/RbeModel.js'; 
 import { PoliceModel} from './model/RbeModel.js'; 
+import {ScienceModel} from './model/RbeModel.js';
 import { StatusCodes } from 'http-status-codes';
 // import  User from "./model/UserModel.js";
 // import bcrypt, { hash } from "bcrypt";
@@ -36,10 +37,31 @@ const PORT = process.env.PORT || 5000;
 
   // })
 
+  // app.get('/science',async (req,res) => {
+  //   let tempScience =[
+       
+  //   ];
+  //   tempScience.forEach((item) => {
+  //       let newScience= new ScienceModel({
+             
+  //           question: item.question,
+  //           options: item.options,
+  //           answer: item.answer,
+           
+  //       });
+  //       return newScience.save();
+  //   });
+  //   res.send("save science question");
+
+  // })
+
 
 
  
-
+app.get('/science', async (req, res) => {
+  let scienceData = await ScienceModel.find({});
+    res.json(scienceData);
+});
 
 
 app.get('/RBE', async (req, res) => {

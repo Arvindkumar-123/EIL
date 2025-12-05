@@ -62,7 +62,7 @@ function About() {
                     
                     <div className='quizcontent' style={{height:'120px'}}>
                     <h1 >PET</h1>
-                    <p>Mock Test FREE <br/><button className="btn  btn-outline-primary ">Click</button></p>
+                    <p>Mock Test FREE <br/><button className="btn  btn-outline-primary " onClick={() => router('/science')}>Click</button></p>
                     
                     </div>
                     </div>

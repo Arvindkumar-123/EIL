@@ -17,7 +17,16 @@ const PoliceSchema = new mongoose. Schema({
   explanation: { type: String, default: "" }
 });
 
-export { RbegsSchema ,PoliceSchema };
+const ScienceSchema = new mongoose. Schema({
+  
+  question: String,
+  options: [String],
+  answer: [Number]
+   
+});
+
+
+export { RbegsSchema ,PoliceSchema ,ScienceSchema };
 
 
 
